@@ -1,0 +1,255 @@
+:root {
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --text: #434455;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --light: #f4f4fd;
+  --modal-overlay: #2e2f42;
+  --hero-background: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
+}
+/* Body */
+
+body {
+  color: var(--text);
+  background-color: var(--white-background);
+  font-family: 'Roboto', sans-serif; 
+  }
+
+.section-list,
+.list {
+  list-style: none;
+}
+/* Header */
+
+.logo.link {
+   /* Studio */
+ color: var(--primary-brand);
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+text-decoration: none;
+}
+.logo.link {
+  text-decoration: none;
+}
+
+.studio {
+color: var(--dark);
+font-family: 'Raleway', sans-serif;
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+}
+
+/* Site nav */
+
+.address {
+  font-style: normal;
+}
+
+.nav-link {
+color: var(--dark);
+letter-spacing: 0.02em;
+line-height: 1.5;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+}
+
+.site-nav, .nav-link:hover,
+.site-nav, .nav-link:focus {
+color: var(--pressed-state);
+
+}
+
+.auth-nav .info,
+.auth-nav .tel {
+color: var(--text);
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+.auth-nav .info:hover,
+.auth-nav .info:focus {
+  color: var(--pressed-state);
+  line-height: 1.5;
+}
+
+/* Hero */
+.hero {
+  background-color: var(--hero-background);
+}
+
+.hero-title {
+  color: var(--white-background);
+ font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 1.07;
+letter-spacing: 0.02em;
+text-align: center;
+}
+.hero-button {
+  background-color: var(--primary-brand);
+  color: var(--white-background);
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: var(--pressed-state);
+}
+
+/* Sections */
+.section {
+  color: var(--dark);
+
+}
+
+.section-one {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.12;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--dark);}
+
+
+.section-title {
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+text-align: center;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--dark);
+}
+
+.statement {
+  color: var(--dark); 
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+.statement-description {
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: var(--text);
+background-color: var(--white-background);
+}
+
+/* Our team section */
+.our-team {
+  background-color: var(--light);
+}
+
+.staff-name {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.02em;
+background-color: var(--white-background);
+color: var(--dark);
+}
+.staff-role, .team {
+  color: var(--text);
+  background-color: var(--white-background);
+  line-height: 1.5;
+letter-spacing: 0.02em;
+}
+
+/* Portfolio Page */
+
+/* Navigation filter buttons */
+
+.filter-button {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  
+  color: var(--primary-brand);
+  background-color: var(--light);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--pressed-state);
+  color: var(--white-background);
+}
+
+/* Portfolio Main */
+
+.portfolio-card, .list {
+text-decoration: none;
+}
+
+.portfolio-type {
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--dark);
+}
+
+.portfolio-platform {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+color: var(--text);
+}
+/* Footer */
+
+.footer, .footer-text,
+.footer-studio {
+  background-color: var(--dark);
+  color: var(--light);
+  
+}
+.footer-logo.link {
+  /* Studio */
+color: var(--primary-brand);
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+}
