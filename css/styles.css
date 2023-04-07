@@ -117,7 +117,7 @@ margin-left: auto;;
   gap: 40px;
  }
 
-.site-nav .item {
+.site-nav.list .item {
   padding: 24px 0;
 }
 
@@ -385,8 +385,7 @@ margin-left: auto;;
   margin-left: auto;
   margin-right: auto;
   justify-content: space-between;
-/* column-gap: 24px; */
-margin-bottom: 24px;
+column-gap: 24px;
 row-gap: 48px;
    }
 
