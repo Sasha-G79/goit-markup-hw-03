@@ -67,7 +67,7 @@ img {display: block;}
   text-transform: uppercase;
   text-decoration: none;
 }
-.logo {
+.logo.link {
   text-decoration: none;
   padding: 24px 0;
 }
@@ -100,6 +100,10 @@ img {display: block;}
   font-size: 16px;
 }
 
+.nav-link.link {
+  padding: 24px 0;
+}
+
 .main-nav, .nav {
 display: flex;
 align-items: center;
@@ -117,9 +121,9 @@ margin-left: auto;;
   gap: 40px;
  }
 
-.site-nav.list {
+/* .site-nav.list {
   padding: 24px 0;
-}
+} */
 
 /* .site-nav .item + .item {
   margin-left: 40px;
