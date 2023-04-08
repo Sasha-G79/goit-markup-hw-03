@@ -305,7 +305,7 @@ align-items: center;
 } */
 
 .staff-name-role {
-  /* padding: 32px 16px; */
+  padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -318,9 +318,9 @@ align-items: center;
   text-align: center;
 }
 
-.staff-role {
+/* .staff-role {
   padding-bottom: 32px;
-}
+} */
 
 .team {
   display: inline-block;
